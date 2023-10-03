@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><title>Mi PG</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<header>
+    <div id="logo">
+        <span>
+            <img src='mg.png' alt="Image" height="80" width="80"/>
+            Maria Gaviria
+        </span>
+    </div>
+    <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul>
+            <li class="button"><a href="#Sobre_Mi">Sobre Mi</a></li>
+            <li class="button"><a href="#Presentación">Presentación</a></li>
+            <li class="button"><a href="#Pasatiempos">Mis Pasatiempos</a></li>
+            <li class="button"><a href="#contacto">Contáctame</a></li>
+            <li class="button"><a href="#Mis_redes">Mis redes</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+<main>
+    <div>
+        <img src="gnr.jpg" height="400" width="400">
+        <p id="Sobre_Mi"> <p class="destacado"> Tengo 28 años, soy de Nariño Pasto, una pequeña ciudad al sur occidente de Colombia</p>
+    </div>
+    <aside id="Presentación"> <strong>Presentación</strong>
+        <ol type="a">
+            <li>¿Qué te motivó a hacer el curso?</li>
+                <p>Poder encontrar un trabajo remoto, en el cual pueda tener más tiempo en familia </p>
+            <li>¿Tienes algún referente digital que te inspire?</li>
+                <p>Mi esposo es ingeniero en sistemas, siempre sale de su zona de confort y siemre esta en costante aprendizaje</p>
+            <li>Escribe en una frase corta acerca de lo que te gustaría conseguir, qué es lo que te motiva.</li>
+                <p>Tener independencia económica </p>
+        </ol>
+    </aside>
+</main>
+<section id="Pasatiempos" class="flex-container">
+    <div class="juegos">
+    <img src="juego.png" height="200" width="300" alt="VideoJuego">
+    <p id="VideoJuego"> Me gusta jugar video juegos de aventura y RPG, como GOW, Prince of Persia, Hitman, Assassin's Creed, Dante's Inferno, entre otros</p>
+    </div>
+    <div class="musica">
+    <img src="rock.png" height="200" width="300" alt="Música">
+    <p id="Música"> Me gusta la música rock, metal, clásica, y algunas bandas que se pueden destacar en mis gustos son Guns and Roses, Megadeth, Apocalyptica, Eluveitie, Lacrimosa entre otros</p>
+    </div>
+</section>
+<section id="contacto" >
+    <h1>Contáctame...</h1>
+    <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombres">Nombre</label>
+            <input id="nombres" name="nombres" type="text"/>
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@gmail.com"
+                required
+                />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+            <button>Enviar</button>
+        </div>
+        <p class="alertas" id="alertas"></p>
+    </form>
+</section>
+</body>
+<footer>
+    <h2 id="Mis_redes"> <strong>Mis redes</strong></h2>
+    <a href="https://www.facebook.com/MariaGaviria26"><img src="facebook.png" height="40" width="40"></a>
+    <a href="https://wa.me/13215301659"><img src="whatsapp.png" height="40" width="40"></a>
+</footer>
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer></script>
+</html>
